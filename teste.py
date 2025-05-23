@@ -5,5 +5,5 @@ st.write ("""
 # *Olá Mundo*
 **amooooooo**
           
-          ~~meu nome é malu e eu faço comunicação~~ """
+          ~~ meu nome é malu e eu faço comunicação ~~ """
          )
