@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title("Meu Primeiro Site com Streamlit")
-st.write("Este é um site simples feito com Python e Streamlit!")
+st.write("esse é um site simples feito com Python e Streamlit!")
 
 nome = st.text_input("Digite seu nome:")
 
