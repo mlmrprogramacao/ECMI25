@@ -1,9 +1,9 @@
 import streamlit as st
-import pandas as pd
 
-st.write ("""
-# *Olá Mundo*
-**amooooooo**
-          
-          ~~meu nome é malu e eu faço comunicação~~"""
-         )
+st.title("Meu Primeiro Site com Streamlit")
+st.write("Este é um site simples feito com Python e Streamlit!")
+
+nome = st.text_input("Digite seu nome:")
+
+if st.button("Enviar"):
+    st.success(f"Olá, {nome}! Seja bem-vindo ao meu site 😊")
